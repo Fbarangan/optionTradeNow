@@ -1,0 +1,9 @@
+/* To use a specific development environment with Docker in a Codespace, you'll need to set up the .devcontainer/devcontainer.json file and optionally a Dockerfile in your repository. Here's a step-by-step guide to setting up these files:
+Create a folder named .devcontainer in the root of your GitHub repository. You can do this by clicking the "Add file" button on the repository page and selecting "Create new file." Then, enter .devcontainer/ as the folder name.
+Inside the .devcontainer folder, create a new file named devcontainer.json. This file will define the settings for the Docker container that Codespaces will use.
+Edit the devcontainer.json file to specify the Docker image or Dockerfile you want to use for your development environment. For example, if you want to use the official Python 3.9 image, your devcontainer.json file should look like this:
+json*/
+Copy code
+{
+    "image": "python:3.9"
+}
