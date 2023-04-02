@@ -3,7 +3,6 @@ Create a folder named .devcontainer in the root of your GitHub repository. You c
 Inside the .devcontainer folder, create a new file named devcontainer.json. This file will define the settings for the Docker container that Codespaces will use.
 Edit the devcontainer.json file to specify the Docker image or Dockerfile you want to use for your development environment. For example, if you want to use the official Python 3.9 image, your devcontainer.json file should look like this:
 json*/
-Copy code
 {
     "image": "python:3.9"
 }
